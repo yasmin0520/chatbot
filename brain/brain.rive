@@ -1,29 +1,51 @@
 ! version = 2.0
 
-+ hello
-- Hello, what is your name?
++ hi 
+- Oh hey what's up 
+- good morning do you want to go on a ride
+- good morning I'm Bike1 just a bike as usual is there any places you want to go
 
-+ _
++ *
 % hello what is your name
-- Nice to meet you <formal>!
+- Nice to meet you <star>!
 
 + my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
+- Nice to meet you <formal> \n
+^ <span class="prompt">Ask me my name</span>
 
-+ thank you
-- You are welcome
-- Welcome
-- No problem
-- No worries!
++ what is your name
+- My name is bike :-)
 
-+ knock knock
-- Who's there?
++ hi bike
+^ <span class="prompt">Ask me which places to go</span>
+- hello how can i help you 
+- hello would you like to go on a ride today 
+^ <span class="prompt">Say hi bike blade</span>
+
+
++ hi bike blade
+- Good afternoon to you is there any places you want to go
+- Good afternoon How are you would you like to go to the park
+- Good afternoon I’m bike blade just a bike that loves to drive fast
+- do you want to go any places like the park or the gym
+
++ yes i want to go to the park
+- sure just come over to the bike
+^ <span class="prompt">say hi bike sam</span>
+
++ hi bike sam 
+- Oh hey i am bike sam the friendliest and safest bike you'll ever meet 
+^ <span class="prompt">say i want to go home</span>
+- Anyways we've been in the park for so long let me take you home 
+
++ i want to go home 
+- yes i'll drive you home safely and this is the end of your bike rides today
+
++ [*] london [*]
+- OK let's talk about London! Have you been before?
 
 + *
-% who is there
-- <star> who?
-
-+ *
-% * who
-- LOL! <star>! That's funny!
+- I don't know what that means
+- Why don't you tell me where you want to go? \n
+^ <span class="prompt">Try typing 'London' or 'Miami'</span>
+- let's go to london 

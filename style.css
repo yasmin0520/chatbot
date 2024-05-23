@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #f2f2f2;
+  background-image: url('Screenshot 2024-05-16 at 11.13.39.png')
 }
 
 .title {
@@ -20,7 +20,7 @@ body {
 
 .title h1 {
   letter-spacing: 0.75px;
-  color: blueviolet;
+  color: rgb(159, 33, 73);
 }
 
 .wrapper {
@@ -63,7 +63,7 @@ body {
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: black;
+  background: red;
   color: white;
 }
 
@@ -98,6 +98,15 @@ body {
 
 input:focus {
   border-bottom: 2px solid blueviolet;
+}
+
+
+.prompt {
+  font-family: monospace;
+  font-size: 80%;
+  margin-top: 4px;
+  display: inline-block;
+  opacity: 0.8;
 }
 
 @media all and (min-width: 720px) {
